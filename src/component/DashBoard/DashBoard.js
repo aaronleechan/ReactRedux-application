@@ -1,6 +1,12 @@
-import React from 'react';
+import React,{useState,useEffect} from 'react';
 
 const DashBoard = (props) =>{
+  // const {getDashBoardList} = props
+
+  // useEffect(()=>{
+  //   getDashBoardList()
+  // })
+
   return(
     <div>
         <h1>DashBoard</h1>
