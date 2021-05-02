@@ -5,7 +5,7 @@ const RouteComponent = (props) =>{
   return(
     <div>
       <Switch>
-        <Route exact path="/" render={()=>(<Redirect to="/dashBoard" />)} />
+        <Route exact path="/" render={()=>(<Redirect to="/dashboard" />)} />
         <Route path="/dashboard" component={DashBoard} />
       </Switch>
     </div>
